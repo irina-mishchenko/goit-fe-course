@@ -7,17 +7,18 @@ ul {
     vertical-align: middle;
 }
 
-ul li {
+.menu-item {
     list-style-type: none;
     text-transform: uppercase;
     color: #626262;
-    display: inline;
+    display: inline-block;
     font-size: 12px;
-    margin: 30px;
-    padding: 20px;
+    margin: 30px auto;
+    padding: 10px 50px;
 }
 a {
     text-decoration: none;
+    color: #626262;
 }
 
 li a:hover {
@@ -35,19 +36,20 @@ li a:hover {
     margin-right: auto;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6 {
+.box-left, .box-right {
     display: inline-block;
+    font-size: 0;
     vertical-align: top;
     width: 410px;
     padding-bottom: 65px;
     padding-top: 65px;
 }
 
-.box1, .box3, .box5 {
+.box-left {
     padding-right: 30px;
 }
 
-.box2, .box4, .box6 {
+.box-right {
     padding-left: 30px;
 }
 
