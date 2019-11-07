@@ -20,8 +20,7 @@ body {
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
-    width: 510px;
+    justify-content: flex-end;
     padding: 0;
     list-style: none;
 }
@@ -30,6 +29,9 @@ a {
     text-decoration: none;
     color: #95e1d3;
     border-bottom: 3px solid rgba(243, 129, 129, 0);
+    transition-property: color, border-bottom;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 
 a:hover {
@@ -43,6 +45,7 @@ a:hover {
 .nav-menu-item {
     font-size: 14px;
     text-transform: uppercase;
+    margin-left: 50px;
 }
 
 .title, .pretitle {
@@ -101,6 +104,7 @@ a:hover {
     text-transform: uppercase;
     color: #333333;
     margin: 0;
+    line-height: 1;
 }
 
 .services-item-text {
@@ -147,6 +151,8 @@ a:hover {
     top: 0;
     left: 0;
     transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 
 .img-wrapper:hover {
@@ -173,6 +179,21 @@ a:hover {
     opacity: 0;
 }
 
+.social-icons-wrpper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.img-wrapper:hover .social-icons-wrpper {
+    opacity: 1;
+}
+
 .social-icon {
     display: flex;
     justify-content: center;
@@ -180,8 +201,10 @@ a:hover {
     height: 56px;
     width: 56px;
     background-color: #fce38a;
-    margin-right: 1px;
+    margin-left: 1px;
     transition-property: background-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 
 .social-icon:hover {
