@@ -1,24 +1,24 @@
 @font-face {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     src: url("../fonts/montserrat-v14-latin-regular.woff");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     src: url("../fonts/montserrat-v14-latin-800.woff");
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Embed Font";
+    font-family: "PT Serif Caption", serif;
     src: url("../fonts/PTSerifCaption-Italic.ttf");
 }
 
 @font-face {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", serif;
     src: url("../fonts/roboto-slab-v9-latin-regular.woff2");
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .menu-item {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .services-title, .contact-title {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 40px;
     line-height: 75px;
     text-transform: uppercase;
@@ -88,7 +88,7 @@ a:hover {
 }
 
 .services-description, .contact-descriprion {
-    font-family: "Embed Font";
+    font-family: "PT Serif Caption", serif;
     font-style: italic;
     font-size: 16px;
     color: #777777;
@@ -137,14 +137,14 @@ a:hover {
 }
 
 .service-item-title {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 800;
     font-size: 18px;
     color: #222222;
 }
 
 .service-item-text {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", serif;
     font-size: 14px;
     color: #777777;
     margin-top: 0;
@@ -171,6 +171,7 @@ a:hover {
     width: 940px;
     height: 385px;
     margin-top: 77px;
+    background-color: transparent;
 }
 
 .data {
@@ -196,7 +197,7 @@ a:hover {
 }
 
 .message-text::placeholder, .data-info::placeholder {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 14px;
@@ -205,12 +206,18 @@ a:hover {
     padding-top: 19px;
 }
 
-input[name='name']:valid, input[name='email']:valid, textarea[name='message']:valid {
-    outline-color: #0fa316;
+input[name="email"]:focus:invalid,
+textarea[name='message']:focus:invalid,
+input[name="name"]:focus:invalid {
+outline-color: #ff3319;
+transition: outline-color .5s;
 }
 
-input[name='name']:invalid, input[name='email']:invalid, textarea[name='message']:invalid {
-    outline-color: #ff3319;
+input[name="email"]:focus:valid,
+textarea[name='message']:focus:valid,
+input[name="name"]:focus:valid {
+outline-color: #0fa316;
+transition: outline-color .4s;
 }
 
 .form-button {
