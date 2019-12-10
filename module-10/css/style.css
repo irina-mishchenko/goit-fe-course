@@ -91,7 +91,6 @@ a:hover {
 }
 
 .nav-menu-icon {
-    background-image: url("../img/symbol-defs.svg#icon-basket");
     width: 18px; 
     height: 18px;
     fill: #ffffff;
@@ -108,6 +107,14 @@ a:hover {
     padding-bottom: 12px;
 }
 
+.basket {
+    background-image: url("../img/symbol-defs.svg#icon-basket");
+}
+
+.magnafier {
+    background-image: url("../img/symbol-defs.svg#icon-magnafier");
+}
+
 .nav-menu-icon:hover {
     -webkit-transition-property: color, border-bottom;
     -o-transition-property: color, border-bottom;
@@ -122,7 +129,7 @@ a:hover {
     border-bottom: 3px solid rgba(252, 227, 138, 1);
 }
 
-.welcome-text {
+.main-title {
     text-align: center; 
     color: #ffffff;
     position: absolute;
@@ -133,50 +140,61 @@ a:hover {
             transform: translate(-50%, -50%);
 }
 
-.pre-welcome {
+.main-title__subtitle {
     font-family: "Kaushan Script";
     font-size: 72px;
     margin-top: 0;
     margin-bottom: 64px;
 }
 
-.welcome, .welcome-button {
+.main-title__text, .main-title__button {
     font-family: "Montserrat";
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.welcome {
+.main-title__text {
     font-size: 150px;
     line-height: 140px;
     margin: 0;
     margin-bottom: 120px;
 }
 
-.welcome-button {
+.main-title__button {
     color: #ffffff;
     padding: 12px 30px;
     background: transparent;
     border: 3px solid #ffffff;
 }
 
-.title, .pretitle {
+.team__title, .services__title, .team__pretitle, .services__pretitle {
     text-align: center;
     color: #333333;
 }
 
-.pretitle {
+.team__pretitle, .services__pretitle {
     font-family: "Kaushan Script";
     font-size: 24px;
 }
 
-.title {
+.team__title, .services__title {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
 }
 
-.title::after {
+.team__title::after {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    height: 3px;
+    width: 60px;
+    content: "";
+    background-color: #f38181;
+    margin-bottom: 65px;
+}
+
+.services__title::after {
     display: block;
     margin: auto;
     margin-top: 25px;
@@ -224,6 +242,30 @@ a:hover {
     width: 32px;
     height: 32px; 
     fill: #95e1d3;
+}
+
+.alarm {
+    background-image: url("../img/symbol-defs.svg#icon-alarm");
+}
+
+.linegraph {
+    background-image: url("../img/symbol-defs.svg#icon-linegraph");
+}
+
+.computer {
+    background-image: url("../img/symbol-defs.svg#icon-computer");
+}
+
+.book {
+    background-image: url("../img/symbol-defs.svg#icon-book");
+}
+
+.home {
+    background-image: url("../img/symbol-defs.svg#icon-home");
+}
+
+.image {
+    background-image: url("../img/symbol-defs.svg#icon-image");
 }
 
 .services-item__info {
@@ -404,6 +446,30 @@ a:hover {
     -webkit-transition-timing-function: linear;
          -o-transition-timing-function: linear;
             transition-timing-function: linear;
+}
+
+.facebook {
+    background-image: url("../img/symbol-defs.svg#icon-facebook");
+    width: 13px; 
+    height: 26px;
+}
+
+.twitter {
+    background-image: url("../img/symbol-defs.svg#icon-twitter");
+    width: 26px; 
+    height: 22px;
+}
+
+.pinterest {
+    background-image: url("../img/symbol-defs.svg#icon-pinterest");
+    width: 21px; 
+    height: 26px;
+}
+
+.instagram {
+    background-image: url("../img/symbol-defs.svg#icon-instagram");
+    width: 26px; 
+    height: 26px;
 }
 
 .social-icon:hover .social-icon-pic {
