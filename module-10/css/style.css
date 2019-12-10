@@ -91,6 +91,7 @@ a:hover {
 }
 
 .nav-menu-icon {
+    background-image: url("../img/symbol-defs.svg#icon-basket");
     width: 18px; 
     height: 18px;
     fill: #ffffff;
