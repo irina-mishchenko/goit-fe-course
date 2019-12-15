@@ -107,14 +107,6 @@ a:hover {
     padding-bottom: 12px;
 }
 
-.basket {
-    background-image: url("../img/symbol-defs.svg#icon-basket");
-}
-
-.magnafier {
-    background-image: url("../img/symbol-defs.svg#icon-magnafier");
-}
-
 .nav-menu-icon:hover {
     -webkit-transition-property: color, border-bottom;
     -o-transition-property: color, border-bottom;
