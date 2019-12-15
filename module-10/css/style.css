@@ -244,30 +244,6 @@ a:hover {
     fill: #95e1d3;
 }
 
-.alarm {
-    background-image: url("../img/symbol-defs.svg#icon-alarm");
-}
-
-.linegraph {
-    background-image: url("../img/symbol-defs.svg#icon-linegraph");
-}
-
-.computer {
-    background-image: url("../img/symbol-defs.svg#icon-computer");
-}
-
-.book {
-    background-image: url("../img/symbol-defs.svg#icon-book");
-}
-
-.home {
-    background-image: url("../img/symbol-defs.svg#icon-home");
-}
-
-.image {
-    background-image: url("../img/symbol-defs.svg#icon-image");
-}
-
 .services-item__info {
     width: 277px;
 }
@@ -446,30 +422,6 @@ a:hover {
     -webkit-transition-timing-function: linear;
          -o-transition-timing-function: linear;
             transition-timing-function: linear;
-}
-
-.facebook {
-    background-image: url("../img/symbol-defs.svg#icon-facebook");
-    width: 13px; 
-    height: 26px;
-}
-
-.twitter {
-    background-image: url("../img/symbol-defs.svg#icon-twitter");
-    width: 26px; 
-    height: 22px;
-}
-
-.pinterest {
-    background-image: url("../img/symbol-defs.svg#icon-pinterest");
-    width: 21px; 
-    height: 26px;
-}
-
-.instagram {
-    background-image: url("../img/symbol-defs.svg#icon-instagram");
-    width: 26px; 
-    height: 26px;
 }
 
 .social-icon:hover .social-icon-pic {
