@@ -94,10 +94,9 @@ a:hover {
     width: 18px; 
     height: 18px;
     fill: #ffffff;
-    border-bottom: 3px solid rgba(252, 227, 138, 0);
-    -webkit-transition-property: fill, border-bottom;
-    -o-transition-property: fill, border-bottom;
-    transition-property: fill, border-bottom;
+    -webkit-transition-property: fill;
+    -o-transition-property: fill;
+    transition-property: fill;
     -webkit-transition-duration: 200ms;
          -o-transition-duration: 200ms;
             transition-duration: 200ms;
@@ -108,9 +107,9 @@ a:hover {
 }
 
 .nav-menu-icon:hover {
-    -webkit-transition-property: color, border-bottom;
-    -o-transition-property: color, border-bottom;
-    transition-property: color, border-bottom;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
     -webkit-transition-duration: 200ms;
          -o-transition-duration: 200ms;
             transition-duration: 200ms;
@@ -118,7 +117,6 @@ a:hover {
          -o-transition-timing-function: linear;
             transition-timing-function: linear;
     fill: #fce38a;
-    border-bottom: 3px solid rgba(252, 227, 138, 1);
 }
 
 .main-title {
@@ -414,6 +412,26 @@ a:hover {
     -webkit-transition-timing-function: linear;
          -o-transition-timing-function: linear;
             transition-timing-function: linear;
+}
+
+.facebook {
+    width: 12px;
+    height: 26px;
+}
+
+.twitter {
+    width: 26px;
+    height: 21px;
+}
+
+.pinterest {
+    width: 20px;
+    height: 26px;
+}
+
+.instagram {
+    width: 26px;
+    height: 26px;
 }
 
 .social-icon:hover .social-icon-pic {
