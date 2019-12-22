@@ -103,7 +103,6 @@ a:hover {
     -webkit-transition-timing-function: linear;
          -o-transition-timing-function: linear;
             transition-timing-function: linear;
-    padding-bottom: 12px;
 }
 
 .nav-menu-icon:hover {
