@@ -1,0 +1,37 @@
+.services-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 350px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.services-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.services-item__icon {
+    width: 32px;
+    height: 32px; 
+    fill: $icon-color;
+}
+
+.services-item__info {
+    width: 277px;
+}
+
+.services-item-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $second-text-color;
+    margin: 0;
+    line-height: 1;
+}
+
+.services-item-text {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: $third-text-color;
+}
