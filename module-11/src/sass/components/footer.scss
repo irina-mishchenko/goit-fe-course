@@ -6,6 +6,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    widows: 1200px;
 }
 
 .email-form {
@@ -17,7 +18,7 @@
 .form {
     height: 34px;
     width: 230px;
-    font-family: "Roboto";
+    font-family: "Roboto", serif;
     font-weight: lighter;
     font-style: italic;
     font-size: 15px;
