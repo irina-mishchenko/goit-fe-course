@@ -1,0 +1,483 @@
+@media(min-width: 700px) {
+    body {
+        min-width: 688px;
+    }
+
+    header {
+        width: 688px;
+    }
+
+    .container {
+        flex-direction: row;
+        width: 688px;
+        margin-bottom: 100px;
+    }
+
+    .main-button {
+        margin: 0;
+    }
+
+    .offers-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 688px;
+        margin: 0 auto;
+    }
+
+    .problems-container {
+        min-width: 688px;
+    }
+
+    .problems-title {
+        width: 455px;
+        margin-top: 68px;
+        margin-bottom: 29px;
+    }
+
+    .problems-items-container {
+        width: 688px;
+    }
+
+    .problems-items-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 310px;
+        margin: 40px 78px 45px 110px;
+    }
+
+    .problems-item {
+        margin-right: 70px;
+        width: 205px;
+    }
+
+    .method-item-container {
+        height: 930px;
+        width: 688px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .method-item:nth-child(-n+3) {
+        margin: 0 23px 23px 43px;
+    }
+
+    .method-item:nth-last-child(-n+3) {
+        margin: 0 43px 23px 0;
+    }
+
+    .program-container {
+        width: 688px;
+    }
+
+    .program-item-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 145px;
+        padding-left: 145px;
+    }
+
+    .program-subtitle {
+        padding-left: 90px;
+    }
+
+    .reasons-img {
+        height: 300px;
+        bottom: 390px;
+        left: 375px;
+    }
+
+    .reasons-title {
+        margin-top: 50px;
+    }
+
+    .reasons-container {
+        width: 688px;
+    }
+
+    .reason-item {
+        width: 215px;
+    }
+
+    .reason-item-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 270px;
+        width: 688px;
+    }
+
+    .reason-item:nth-child(-n+3) {
+        margin: 0 23px 23px 43px;
+    }
+
+    .reason-item:nth-last-child(-n+3) {
+        margin: 0 43px 23px 0;
+    }
+
+    .teacher-container { 
+        height: 555px;
+        width: 688px;
+        flex-wrap: wrap;
+    }
+
+    .teach-info {
+        width: 410px;
+        margin-left: 45px;
+    }
+
+    .guarantees-container {
+        width: 688px;
+        margin: 0 auto;
+    }
+
+    .guarantees-list-wrapper {
+        width: 688px;
+    }
+
+    .guarantees-list {
+        padding: 40px 50px 35px 60px;
+    }
+
+    .review-container {
+        width: 688px;
+    }
+
+    .review-card {
+        height: 296px;
+        width: 688px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .review-info {
+        width: 506px;
+    }
+
+    .review-card__info {
+        text-align: left;
+    }
+
+    .review-text {
+        text-align: left;
+    }
+
+    .form-card {
+        width: 688px;
+    }
+}
+
+@media(min-width: 1215px) {
+    body {
+        min-width: 1210px;
+    }
+
+    header {
+        width: 1210px;
+    }
+
+    
+    .menu-list {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .container {
+        width: 1210px;
+    }
+
+    .main-title {
+        font-size: 48px;
+    }
+
+    .main-pre-text {
+        font-size: 18px;
+    }
+    
+    .main-text {
+        font-size: 18px;
+    }
+
+    .main-button {
+        font-size: 12px;
+        width: 300px;
+    }    
+
+    .pic-bg {
+        width: 678px;
+    }
+
+    .pic {
+        width: 568px;
+    }
+
+    .offers-container {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 1210px;
+    }
+
+    .offer-item {
+        width: 376px;
+        height: 105px;
+    }
+
+    .offer-icon-wrapper {
+        height: 105px;
+        width: 105px;
+    }
+
+    .student {
+        width: 40px;
+        height: 46px;
+    }
+    
+    .mobile {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .money {
+        width: 40px;
+        height: 45px;
+    }
+
+    .offer-text {
+        font-size: 18px;
+    }
+
+    .problems-container {
+        width: 1210px;
+    }
+
+    .problems-title {
+        font-size: 42px;
+        width: 735px;
+    }
+
+    .problems-items-container {
+        width: 1210px;
+        height: 320px;
+    }
+
+    .problems-item {
+        font-size: 18px;
+    }
+
+    .methods-container {
+        width: 1210px;
+    }
+
+    .methods-title {
+        font-size: 42px;
+    }
+
+    .method-item-container {
+        width: 1210px;
+        height: 750px;
+    }
+
+    .method-item {
+        width: 390px;
+        height: 340px;
+        margin: 0 20px 20px 0;
+    }
+
+    .method-item:nth-child(-n+3) {
+        margin: 0;
+    }
+
+    .method-item:nth-last-child(-n+3) {
+        margin: 0;
+    }
+
+    .method-item:nth-child(3n+3) {
+        margin-right: 0;
+    } 
+
+    .method-item-title {
+        font-size: 18px;
+    }
+    
+    .method-item-text {
+        font-size: 15px;
+    }
+
+    .program-container {
+        width: 1210px;
+    }
+
+    .program-title {
+        font-size: 42px;
+    }
+
+    .program-subtitle-list {
+        display: flex;
+    }
+
+    .program-subtitle {
+        width: 258px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .program-subtitle::before {
+        display: block;
+    }
+
+    .program-item-list {
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .reasons-title {
+        font-size: 42px;
+    }
+
+    .reasons-container {
+        width: 1210px;
+        height: 350px;
+    }
+
+    .reason-item-list {
+        flex-direction: row;
+        width: 1210px;
+        height: 350px;
+        justify-content: space-around;
+    }
+
+    .reason-item {
+        font-size: 18px;
+        margin: 0 120px 50 0;
+    }
+
+    .reason-item:nth-child(-n+3) {
+        margin: 0 120px 50px 0;
+    }
+
+    .reason-item:nth-last-child(-n+3) {
+        margin: 0 120px 50px 0;
+    }
+
+    .teacher-container {
+        width: 1210px;
+    }
+
+    .teacher-title {
+        font-size: 42px;
+    }
+
+    .teacher-photo {
+        width: 490px;
+    }
+
+    .teacher-name {
+        font-size: 30px;
+    }
+    
+    .teacher-skills-list {
+        font-size: 17px;
+    }
+    
+    .teacher-skill {
+        font-size: 17px;
+    }
+
+    .guarantees-container {
+        margin-top: 140px;
+        width: 1210px;
+    }
+
+    .guarantees-title {
+        font-size: 42px;
+    }
+
+    .guarantees-list {
+        font-size: 18px;
+    }
+
+    .guarantees-list-wrapper {
+        width: 1210px;
+    }
+
+    .review-container {
+        width: 1210px;
+    }
+
+    .review-card {
+        width: 1065px;
+    }
+
+    .review-title {
+        font-size: 42px;
+    }
+
+    .review-card__photo {
+        width: 145px;
+        height: 145px;
+    }
+    
+    .review-card__name {
+        font-size: 25px;
+    }
+    
+    .review-card__info {
+        font-size: 13px;
+    }
+    
+    .review-card__text {
+        font-size: 17px;
+    }
+
+    .form-card {
+        width: 1210px;
+    }
+    
+    .form-title {
+        font-size: 38px;
+        line-height: 52px;
+    }
+    
+    .form-text {
+        font-size: 18px;
+    }
+
+    .data-info {
+        width: 620px;
+        height: 70px;
+        font-size: 21px;
+    }
+
+    .form-button {
+        padding: 20px 60px;
+        font-size: 14px;
+    }
+
+    .contacts-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 1210px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+    }
+} 

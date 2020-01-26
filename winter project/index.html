@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title>Winter project</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="menu-pac">
+            <ul class="menu-list">
+                <li><a class="menu-list__item" href="#">Программа обучения</a></li>
+                <li><a class="menu-list__item" href="#">О нас</a></li>
+                <li><a class="menu-list__item" href="#">Варианты обучения</a></li>
+                <li><a class="menu-list__item" href="#">Контакты</a></li>
+            </ul>
+            <img class="menu" src="img/menu.png" alt="menu">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-titles">
+                <p class="main-title">Комплексная подготовка к ВНО по английскому языку</p>
+                <p class="main-pre-text">Просто не будет.</p>
+                <p class="main-text">Но ты гарантированно наберешь</p>
+                <p class="main-post-text">+25 баллов</p>
+                <button class="main-button">Хочу на бесплатное занятие</button>
+            </div>
+            <div class="main-page-pic">
+                <div class="main-pic-bg">
+                    <img class="pic-bg" src="img/main-pic-bg.png">
+                </div>
+                <div class="main-pic">
+                    <img class="pic" src="img/main-pic.png" alt="main-picture">
+                </div>
+            </div>
+        </div>
+        <div class="offers-container">
+            <div class="offer-item">
+                <div class="offer-icon-wrapper">
+                    <svg class="offer-item__icon student" width="39" height="45" viewBox="0 0 39 45">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAtCAYAAAAtOHJTAAAFTUlEQVRYhbWZe5DVYxjHPx0bTlEowzBilxWFvbCjoYh1C42EyWDMlORSiCml3C3TGkyYcVuj3E3rrsWMW5Tcmi5C5dZtx+ySopUJU2ue5vvbeffM73fO+5495/nn/Z3f733e5/s+73N9T7f28bvSBSoBLgeuACqcZVYAs4FHgL/yXT7VBWBTgP8EYD/gGeAhYA6wB1APtAE35yugJE++D4GTgLclfEnMnMOAu4G7gBOBU0OF5KO5TwVsBHBWAjCjlcB5wEjgFOD9YoMzLR0HnAa84cnzGjAKqAXODxEW4hC7AFuBd4Az9c40MhSY4WH4PwP7ax0vCtHcORrHaHwAeA+YLsO/MoHvZOBIbWhnoKYY4Mx2tgMtwP3A9cDtwADgY+BR4DPggAy+etml2WC7jrjg4AYCC+V5NwCTgTsU04bK+AcB64CLHT6LgTvp+5fAsb4CQ2xuObAZ6Kv4dkTMnL2Bl3SUjwFX6f0GYL2UYSYw2EdgiOZ+AfrLqL9KmPObvPI22eAnen81UAkcJRPwohBwFhL6AD2luWx0JzAcGALME+iIGooBLu08/+kxfy5QJRt1A3BlMcBNBX5QrOvrybMUOFxymoFWpbSCg1sF9AD+AXYL4FupXLxN8pYXA9xTcobewMYAPqNNwIHy5lnFADfPef4jDBtbnOcvfJlCwK0BGvXcPYAPmQOq97w3lk8lbEb9N1AawGOB93vg6BBB+dRzM4GDgL0851fIgUaHCsoHnCV9o1c85z+rsV+ooHzA/aumxpL9vTnmNqhcWgS8BTQVG5zRk4pbVpmsBi4F9lW9ZuFmnFLWWPUZNTpWq+kW+wrpSmu4XUdr6eiQmO/L1ECZp5bpnVUj8xXrxsTwdKJ8NFcOPG8bU1tYrhptqqrjScqpleo5SlWNGC0AbpUW40quThSiuTKV5NGOxylrbMvC0102ep9MAHmuhZazc9mgj+YOBl4GfhIwa2Z+1xFlA4ZTWrkZYpjGdMx8b3B2HE8DP6rEniU7swBcISd4Mcf69Ro/12gbfU7PjfLggSHgzNteUCtnAB4EdpfWalVI1mrRC4F7Eta2cHOjnq3E2lMbbZedXqOj/UYe3T9zgUybmylbSstOoiN0yeyuTtcNZVp4vJwjIquC3wSuE7BJqkw2qwmKitW0mqU6/bbLn8t0Qp3ATXaCalpFZRI1KWaZx05TAXku8Lry5yIJGq2QEnnrKF30xNEGtQENUlAHuBKBWSO7GORR2mxUy9dbDmN2eYlsaqnCyWInrEzRKUyMcaR91A+vUOVsvW9zZHM3SVCVKl6fNGPNdC/gXd2BLBSwVq3zsMZqae8i5/gyaa5+V2s03g6HmC5QbTqmPtpBNmrRXcnp4j9eQC2NXQBMkBO5t1CtMVozRzlG7eRWKWZEBK6XLldma/KrGp/w0N4H0nqdtDdMid7s6nHPkjyy8yjsROGpNKW7NpTzcCYOVs2fi2boWBqlsa8VHpIudlwqUXHQpMYJp+k+w8CdoB/LHKZpGpNsJJOGqzqZo3RV7ck3QeNY512zxiEpp3R279csznwUubQnWfO8VnaY60Ygojpd/LRkvLffVSlF5nUxjFFZPdFT0HpF/vkec5Ej9Uwo3y2k9EspxqyOmbBWyT4pPcWRr8bQfd4WNdyZZBvtkVKU/zVhgWuVLWoDhPpQuQqLWxLmWrboiHNtCZOiq64BBQYXtZULEr7vwBOBa02YFF1drSosNr7TuCnhux1rx58kI3X+3ZwJ7bJH5BQ1Gd/zJVv3UDFb+fVtjNwdt/WW+O320VJPUuFpydrSWaEp+7qw5H9a+C/2Fw9FGQAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <p class="offer-text">Адаптированная авторская программа ВНО</p>
+            </div>
+            <div class="offer-item">
+                <div class="offer-icon-wrapper">
+                    <svg class="offer-item__icon mobile" width="44" height="45" viewBox="0 0 44 45">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAtCAYAAADV2ImkAAAE3klEQVRYhc2Ze4hVVRTGfzNznfExo5Pj5KSpGWpkmGkRSSQhoilqIpUjWiT0hylEhkSYUEgRFU6vP4JR/7FITUQtLdEp7T0qqKOJlUim42RDOfk253FlDd+J08W5Z59795384HBmuGev8+219/rWWvvkJRd0xQNGAJ8AfYEkkOfDqBDY2w1MSngw2AfYB2wGVgItQH6a568AzaH/i4B0PNqAbsA7wB4fhB+SF6Z7sJUOB4Aj6Tzhii5AQ4zn3wX+Bpp0n+s4zpzb6MPDUVsgFR8Be0N78xvHcQX2Hh+E8/VyV9TqiovzRGx2VxwD+gG/ebDVESzwTM4KfBAuAS4Ay3PD9V/cBMz0QbgcOA284olYR+gJPOZDJZqlFLnGrcSM7o7QJKXoFPggfD8wSHss58iG8HPAceApYBdQD9QAD+aSdFzCVuSsBv4EngfWA3cC9wEPS36spvhZvxf+X4QfkdjvAe4CFgMVwELglJ4xohOA24Ev9Yz9tgIY3hmES4E3le8/AH6VJ41QdZpxJ4CnNf5Z4F7gEFBnOpoLwuOAjdqfj6qsM2/OAvbHtL9KW2aMJlwtu6+qds6YsBUh84HDwGdKBo8DtwAvAWcyMR5CrcrPftoiTwJHgU81mViEq1UHzAY2AEMkVZscxncHblARX6KKKh0shS8F+gMzgLNahX2qqyOREMEBmvnSawy4EZgIPAAME8FiZbcgteeH2qJW4KKqqxPauzuAL1LsbgN2Ar+LQ4kL4aCnGw+sU03wIrBGXl6mILPysRH4CfhFmtugLHdBJHso0CyB3AwMBIbKGUWawDYFpKXz94F5wMe6N0VwNXXaHnioRgMrgbeABYruLcALwFcxa95UlGqVLE4OylaxZHB7HEPham2EZKxKXnsGeC8LkmGYNK7VdVS1bf9MDIUJt2k5bf+dVNOXC/yoCWSEMOFkaNkTCq4o9ND+LNC+vAT8EzGmq2uARXk4jCJFOCGVGCuVKNX+S+jKk0q0asJG/LJWqlGSVaN0jYKvyDdhk5opkrkxIvKHVKJW2eqUIvuifk/Ic2VKEIOlMHMUbJel+cWy74VwsCVsqV9WkFiG+jrTFwi9lShMvu4GXsvUUGotEYj/QHm30gNZpO+WmO5Rmr8jU0OphLvrvkwF+hueSkPLipOV7ZqzaVhTt0Tw/yLgO+B1lYh/qTA6qPsx7WmTp3Pax2WacLk01prG4ZrwkNApzyhlSi+Ew9lsg66RdswJjFYATtW4oJsICp42XS2SNlMDC8zvlZA+91D1/YdwS8oxaIA6XWEUKpAs4p8AlihTnpdynM2WmAvhPurVXHAl1BrtlmYfyhXJMIKgq1JSmKZeLA5KHepgb0hIGxeqDapQG7TrGvXrdYF8dRr7FfV1iuBpMch16aSTH+sJ2z28VbpYL+mxtPptDEMmeb1UmOcKSSWzPOs4EupsK/Syhpjd8Vi1QK4Bi5xzRu8sc3g+GchoQsu5NwvPDNIkB8QYM1Q1SpWqPBfcZivv4zAwLkZqRaaq9OzlOL69zvFBuEAZzhUzpfmVSjajHce1f0vxcQKfFAFXLFYH/APwtrztAuszy318uq1QQf6hWvfWiE+3lr7t+N9KTVMo+9vlS6h9Qyn09a3ZDlns6NWIunxrNoWwesMquygCZs+2XT0w4Sri9hxwHQap/AAAAABJRU5ErkJggg=="/>
+                    </svg>                          
+                </div>
+                <p class="offer-text">Современные методики обучения</p>
+            </div>
+            <div class="offer-item">
+                <div class="offer-icon-wrapper">
+                    <svg class="offer-item__icon money" width="40" height="48" viewBox="0 0 40 48">
+                        <image xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <p class="offer-text">Финансовая гарантия результата</p>
+            </div>
+        </div>
+        <div class="problems-container">
+            <p class="problems-title">Главные проблемы учеников на English ВНО, которые мы помогаем решить</p>
+            <div class="problems-items-container">
+                <ul class="problems-items-list">
+                    <li class="problems-item">Незнание грамматики</li>
+                    <li class="problems-item">Неумение воспринимать устную английскую речь</li>
+                    <li class="problems-item">Скупой словарный запас для написания сочинения</li>
+                    <li class="problems-item">Подготовка в одиночку</li>
+                    <li class="problems-item">Отсутсвие единого ресурса знаний</li>
+                    <li class="problems-item">Недостаток самоорганизованности и лень</li>
+                </ul>
+            </div>
+        </div>
+        <div class="methods-container">
+            <h2 class="methods-title">Как мы это делаем</h2>
+            <div class="method-item-container">
+                <div class="method-item">
+                    <svg class="method-item__icon study" width="42" height="45" viewBox="0 0 42 45">
+                        <image width="42" height="45" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAtCAYAAADYxvnjAAAEy0lEQVRYhb2ZeYydUxjGf3c6W9FKh6IyaheS0UFjjRC7hKTWJkj1H6VRS9ImJZLGkiiJqCVCiJ0GQYLwjyWWhEZIi6gl1FIxtlIU02ln7iePPPfm6/Hde+43czpPcnPvd853z3nOe97zbqeSLei+D7gYuA24GTgSuBEYANoYH2TAXsDDwA1FM7YDh/r3QcBk4AjgPeCKcSKa+SOBXQ9sBywuIvqzf68DhoFB4Hvgz3Egmcd64CLgQmA5cEFINEQV6HSbJHoGsG2JCTMv/uWSRHcDXgCOBb4KyRYRzUNETwF2AUZanHAC8OEoiG4C9vFv6euvwBPAea0QlSpcUnLC0WKCVa6GHXxWlgELY0TVfzsw1SrRKipNDqLaVwC3Bu09tj49fud34AHgHqlejKi2+96czqbCDwXjXAXMBg7x8ySrw93AnBhRHYzPgL1zZqQGSW0I+AnotRSy5sPVsROwf9A2YFsuTn/YCtXQEyOqAV8BvvDWV4JFaNUHAu9a+pUmY8WQeQ597wm8DSzyfzpjRPcDvgPOadAvk/IocPYYCBZhTjBnJeZ5hiOGX/0bEpMUNobjxiQqZd4G2LFB/+52Br0ePBWmhVYmRlR2rR94qqAvM8l9gccS6GgNGmc68EYZolrZauBSP4eHSdbgWmC+Y4QURKs2UzPKEO22jq5t0D/k/s8TEMzjW+DgfEPsMFUiPn6oRAxQBsPh7sQk+o0D6ecL+qqOX/uAF4sGHyVGrFIryhCdZM/zrJ9DHZ3mOOA5W4hUOnoM0FGGqMzSGhv1Ish0HQbcn4BgHr8B5+cbxppqVBJJMYqYRP8GjnN6EEJbvwdwIjDPBj8FaY07y/pfR4zoxzbmxxec7loQ8QhwuNtSSVdb/1AZoiJ3TaLJx4QYUUnoFm9xEWpBy5SE0sxsn5+02fsPMaJ9Pn1LGwTF8smXAUs8eCqcBlxehuhkB853NejvsnFelpAkNolbHOBWzFOz9KJMwlcG1XDemEQHHOZd5+e8Hlbtlfpdq9qc0IXOzFVwWiJatdQneoWhC+1yPt7t71QutCtsjBFV5L7KqWwR2l3NWNR8mNI4GZib/1NMR7PIO51bqeLXETbEJLrO9aC5BX1axK5OReY5ekqBzNHTFjlYjOgG5/ZnNSCqMHBn++ZU8WjVRbJ8PJrFiMojvdMgKMEe6UHgzAQE85jlvKmOVvL6/53AHKa6P3VtavvQRseItofhVoAO98d2piwmukTeMlEdkF+a9G92wTW1hxp0qFdHTBKqHC9o0r/GFiFllUR42nlYHa1UnJvVlkZccE2NQX/qaPOBwIlcuxO29Vth8rFgk4iu9AAfAX+Z5OyCQWWG3ipoX+JaZoj5dr/dQcdJrs1PCdpnWtVmBO0qfR7d5rsd4UqXrO+0zr2Ze1nXKgdYwd/Ptd/hRf0IfO3ABN++LfbEa+0UsD1WDvalP31uPxV41QvQvKe7vd/loqVFOrrRt3efAo8D//hWb7r7X3PlZLUX2etdUJFCkn3JQYpIiLxSGV3lKHhRpnAC8LpzMX2r/2q74WccqGsxNzkYWqgLB92FFnCt4wPrrMSfh1avLZLn0kJq0MXEuY7683ouCevK8ijgk1y7LIZ2UP/J30vpUky7qCricoB/AbbgDmncrIAdAAAAAElFTkSuQmCC"/>
+                    </svg>                  
+                    <h3 class="method-item-title">Адаптированная программа подготовки к ВНО</h4>
+                    <p class="method-item-text">Ты будешь изучать грамматичку и лексику одновременно. И ты научишься писать сочинения.</p>
+                </div>
+                <div class="method-item">
+                    <svg class="method-item__icon mobile" width="44" height="45" viewBox="0 0 44 45">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAtCAYAAADV2ImkAAAE3klEQVRYhc2Ze4hVVRTGfzNznfExo5Pj5KSpGWpkmGkRSSQhoilqIpUjWiT0hylEhkSYUEgRFU6vP4JR/7FITUQtLdEp7T0qqKOJlUim42RDOfk253FlDd+J08W5Z59795384HBmuGev8+219/rWWvvkJRd0xQNGAJ8AfYEkkOfDqBDY2w1MSngw2AfYB2wGVgItQH6a568AzaH/i4B0PNqAbsA7wB4fhB+SF6Z7sJUOB4Aj6Tzhii5AQ4zn3wX+Bpp0n+s4zpzb6MPDUVsgFR8Be0N78xvHcQX2Hh+E8/VyV9TqiovzRGx2VxwD+gG/ebDVESzwTM4KfBAuAS4Ay3PD9V/cBMz0QbgcOA284olYR+gJPOZDJZqlFLnGrcSM7o7QJKXoFPggfD8wSHss58iG8HPAceApYBdQD9QAD+aSdFzCVuSsBv4EngfWA3cC9wEPS36spvhZvxf+X4QfkdjvAe4CFgMVwELglJ4xohOA24Ev9Yz9tgIY3hmES4E3le8/AH6VJ41QdZpxJ4CnNf5Z4F7gEFBnOpoLwuOAjdqfj6qsM2/OAvbHtL9KW2aMJlwtu6+qds6YsBUh84HDwGdKBo8DtwAvAWcyMR5CrcrPftoiTwJHgU81mViEq1UHzAY2AEMkVZscxncHblARX6KKKh0shS8F+gMzgLNahX2qqyOREMEBmvnSawy4EZgIPAAME8FiZbcgteeH2qJW4KKqqxPauzuAL1LsbgN2Ar+LQ4kL4aCnGw+sU03wIrBGXl6mILPysRH4CfhFmtugLHdBJHso0CyB3AwMBIbKGUWawDYFpKXz94F5wMe6N0VwNXXaHnioRgMrgbeABYruLcALwFcxa95UlGqVLE4OylaxZHB7HEPham2EZKxKXnsGeC8LkmGYNK7VdVS1bf9MDIUJt2k5bf+dVNOXC/yoCWSEMOFkaNkTCq4o9ND+LNC+vAT8EzGmq2uARXk4jCJFOCGVGCuVKNX+S+jKk0q0asJG/LJWqlGSVaN0jYKvyDdhk5opkrkxIvKHVKJW2eqUIvuifk/Ic2VKEIOlMHMUbJel+cWy74VwsCVsqV9WkFiG+jrTFwi9lShMvu4GXsvUUGotEYj/QHm30gNZpO+WmO5Rmr8jU0OphLvrvkwF+hueSkPLipOV7ZqzaVhTt0Tw/yLgO+B1lYh/qTA6qPsx7WmTp3Pax2WacLk01prG4ZrwkNApzyhlSi+Ew9lsg66RdswJjFYATtW4oJsICp42XS2SNlMDC8zvlZA+91D1/YdwS8oxaIA6XWEUKpAs4p8AlihTnpdynM2WmAvhPurVXHAl1BrtlmYfyhXJMIKgq1JSmKZeLA5KHepgb0hIGxeqDapQG7TrGvXrdYF8dRr7FfV1iuBpMch16aSTH+sJ2z28VbpYL+mxtPptDEMmeb1UmOcKSSWzPOs4EupsK/Syhpjd8Vi1QK4Bi5xzRu8sc3g+GchoQsu5NwvPDNIkB8QYM1Q1SpWqPBfcZivv4zAwLkZqRaaq9OzlOL69zvFBuEAZzhUzpfmVSjajHce1f0vxcQKfFAFXLFYH/APwtrztAuszy318uq1QQf6hWvfWiE+3lr7t+N9KTVMo+9vlS6h9Qyn09a3ZDlns6NWIunxrNoWwesMquygCZs+2XT0w4Sri9hxwHQap/AAAAABJRU5ErkJggg=="/>
+                    </svg>   
+                    <h3 class="method-item-title">Аудиторное и онлайн-обучение</h4>
+                    <p class="method-item-text">Учитель поможет не только в аудитории, но и во время домашней подготовки. Родители могут участвовать в чате при желании.</p>
+                </div>
+                <div class="method-item">
+                    <svg class="method-item__icon book" width="50" height="36" viewBox="0 0 50 36">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAkCAYAAADLsGk3AAADfElEQVRYheWZyWsUQRTGfz2TxAWjiFFEjOJNkYAaRTEXDyIGRFQMuIAHg4oX/QvUg+jFq+DJm7idJSYgbgcPCopGMC4HJS7EnUSdxGVKXngVKzM9k67uAol+UMxMdc979b16S71ujDF2zDPGvDLh0G2MaXXktxhj7hhjioE09Bljmqz8Gv5gETAH2A/0kR5FYCrQBnQAW4GPwFUd7fo7l0HHROAs0Ax0D884FmtSpgQc2xwLHgws27g7Hhlj5gILgRbgMDAfeJnBWqUQWbOAuoAyJ+uungI6gSdCpBeYDQzBsKs1Au8CKr2k8pcHlClGkXXXq4sOyMJlRzYIKx0T9ObTwA7gh6eSSD+bVV7eiYcGnavTWPKBrLUL2Kz/mQmsBT4Bd22wv9GBo/Qi8EDCKJ3RRnY158j8qu6bJtDFQM/1e15/v9VRqFHLTAGmOX9A2XelJFEJBeBkADl5/RTXGhRjZ0mBfxNlXlKTYDFLgRMePh2ponYNSBey6+eAWg+XFWMfBW5UuykJkVoNUt9YycfM5TRIfYhETgKqiCREbgNLEiodC5JhVgSSNQrjNUai0om4HbFbvhpYkCLfWyVSCPtLromLbFK383XVSEvENeBX6cU4Inbh7VoQf6ZQKFgWQ6RejxV1KWOuy4eIDdI9wL4MBbFMGfBegz0NIsfItUmIWBRTuFUSxBHMjCRZK6/nf18UYgwhVp0UF6xVEGn1ruriSYisAa6kICKNWk/JXIMGbFyNqYbtwPlqNyQh8lCD3qeACV7HXJPg36lp30ferbFuSkKkT48VISA9z4VAskbhny6INqvIQa01Q/ptc/oHi+n6QCKJJ5TCutiBuGYvTqBlK5liIGUFNhVSt1GZPodGV26h0sU4ItbdjukIic/AugDyygrif9VYNWrD7+sKZ/TY7kKK4W5PA4pLXQaeVrspCRE5AR/xUGzRGUNEnkcdinONMdAbgshNYIan4kr4oM+4gmO8xkgZXCI27Q4F1hF5HhKTYNCRPQxLxDiT3wMr7a+W/1PCFu2RTtONERuYLxzGaZFTZR0aXzntDLeozqx9jvuEdIRITvuNL/qgeXEAVyhqW7sLWKlzkrGOB3g3gq7vEfAMaBJ5ltlGjY0e3ZEQPl3Us9E9/b0XeBwowdhQkFch62Uj5LXCdWBVhsNhNXzTzk582e5SaETA/d8huAqghCRuaAAAAABJRU5ErkJggg=="/>
+                    </svg>
+                    <h3 class="method-item-title">Привычка читать на английском языке</h4>
+                    <p class="method-item-text">Статьи из источников, которые используются при разработке настоящего ВНО, будут приходить на телефоны дважды в неделю.</p>
+                </div>
+                <div class="method-item">
+                    <svg class="method-item__icon communication" width="44" height="45" viewBox="0 0 44 45">
+                        <image width="44" height="45" xlink:href="data:img/png;base64,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"/>
+                    </svg>                  
+                    <h3 class="method-item-title">Психологическая поддержка</h4>
+                    <p class="method-item-text">Мы научим тебя методикам прохождения тестирования, умению планировать свою подготовку, уверенности в себе.</p>
+                </div>
+                <div class="method-item">
+                    <svg class="method-item__icon student" width="39" height="45" viewBox="0 0 39 45">
+                        <image id="icon_Female_Student_копия_2" data-name="icon Female Student копия 2" width="39" height="45" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAtCAYAAAAtOHJTAAAFTUlEQVRYhbWZe5DVYxjHPx0bTlEowzBilxWFvbCjoYh1C42EyWDMlORSiCml3C3TGkyYcVuj3E3rrsWMW5Tcmi5C5dZtx+ySopUJU2ue5vvbeffM73fO+5495/nn/Z3f733e5/s+73N9T7f28bvSBSoBLgeuACqcZVYAs4FHgL/yXT7VBWBTgP8EYD/gGeAhYA6wB1APtAE35yugJE++D4GTgLclfEnMnMOAu4G7gBOBU0OF5KO5TwVsBHBWAjCjlcB5wEjgFOD9YoMzLR0HnAa84cnzGjAKqAXODxEW4hC7AFuBd4Az9c40MhSY4WH4PwP7ax0vCtHcORrHaHwAeA+YLsO/MoHvZOBIbWhnoKYY4Mx2tgMtwP3A9cDtwADgY+BR4DPggAy+etml2WC7jrjg4AYCC+V5NwCTgTsU04bK+AcB64CLHT6LgTvp+5fAsb4CQ2xuObAZ6Kv4dkTMnL2Bl3SUjwFX6f0GYL2UYSYw2EdgiOZ+AfrLqL9KmPObvPI22eAnen81UAkcJRPwohBwFhL6AD2luWx0JzAcGALME+iIGooBLu08/+kxfy5QJRt1A3BlMcBNBX5QrOvrybMUOFxymoFWpbSCg1sF9AD+AXYL4FupXLxN8pYXA9xTcobewMYAPqNNwIHy5lnFADfPef4jDBtbnOcvfJlCwK0BGvXcPYAPmQOq97w3lk8lbEb9N1AawGOB93vg6BBB+dRzM4GDgL0851fIgUaHCsoHnCV9o1c85z+rsV+ooHzA/aumxpL9vTnmNqhcWgS8BTQVG5zRk4pbVpmsBi4F9lW9ZuFmnFLWWPUZNTpWq+kW+wrpSmu4XUdr6eiQmO/L1ECZp5bpnVUj8xXrxsTwdKJ8NFcOPG8bU1tYrhptqqrjScqpleo5SlWNGC0AbpUW40quThSiuTKV5NGOxylrbMvC0102ep9MAHmuhZazc9mgj+YOBl4GfhIwa2Z+1xFlA4ZTWrkZYpjGdMx8b3B2HE8DP6rEniU7swBcISd4Mcf69Ro/12gbfU7PjfLggSHgzNteUCtnAB4EdpfWalVI1mrRC4F7Eta2cHOjnq3E2lMbbZedXqOj/UYe3T9zgUybmylbSstOoiN0yeyuTtcNZVp4vJwjIquC3wSuE7BJqkw2qwmKitW0mqU6/bbLn8t0Qp3ATXaCalpFZRI1KWaZx05TAXku8Lry5yIJGq2QEnnrKF30xNEGtQENUlAHuBKBWSO7GORR2mxUy9dbDmN2eYlsaqnCyWInrEzRKUyMcaR91A+vUOVsvW9zZHM3SVCVKl6fNGPNdC/gXd2BLBSwVq3zsMZqae8i5/gyaa5+V2s03g6HmC5QbTqmPtpBNmrRXcnp4j9eQC2NXQBMkBO5t1CtMVozRzlG7eRWKWZEBK6XLldma/KrGp/w0N4H0nqdtDdMid7s6nHPkjyy8yjsROGpNKW7NpTzcCYOVs2fi2boWBqlsa8VHpIudlwqUXHQpMYJp+k+w8CdoB/LHKZpGpNsJJOGqzqZo3RV7ck3QeNY512zxiEpp3R279csznwUubQnWfO8VnaY60Ygojpd/LRkvLffVSlF5nUxjFFZPdFT0HpF/vkec5Ej9Uwo3y2k9EspxqyOmbBWyT4pPcWRr8bQfd4WNdyZZBvtkVKU/zVhgWuVLWoDhPpQuQqLWxLmWrboiHNtCZOiq64BBQYXtZULEr7vwBOBa02YFF1drSosNr7TuCnhux1rx58kI3X+3ZwJ7bJH5BQ1Gd/zJVv3UDFb+fVtjNwdt/WW+O320VJPUuFpydrSWaEp+7qw5H9a+C/2Fw9FGQAAAABJRU5ErkJggg=="/>
+                    </svg>                  
+                    <h3 class="method-item-title">Обучение по авторским пособиям</h4>
+                    <p class="method-item-text">Тебе не нужно тратить время на самостоятельный поиск материала и ничего покупать дополнительно. Мы составили два пособия для тебя.</p>
+                </div>
+                <div class="method-item">
+                    <svg class="method-item__icon audiobook" width="50" height="43" viewBox="0 0 50 43">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAArCAYAAAA65tviAAAEqElEQVRogd2Ze4hXRRTHP7ttZa491DZLEo0eJtnLLDXCCMmKQiiILCopexARFb1MKqInVoZFZdBDLSkLIvojCHpi9rKigszKQiuyx9pDc7Nsd39x5DtyuHvX387M3V3qC5czd+beM3Nmzpw550xD7dIBlOAk4GZgOFAr+yACm/Xp9kBDBh/79yfgLuDZLo0lggwF1mUOvrcxCvjG99FU0mGYwb+AU4COxEHZSjYDL+p9OvBj5qo8DewJNBYbvCCmTnsBI/X+B/BqRqdFPFMBj18lyCXA59Icm6gOE6QFeAU4pPDTJgnantHxzq48sqgOCQj79Rr369fAVBvogxJiI/AuMBA4Gtgxs1OknmXlVAQNeh9YD4wD9gUWWMPpajxegoTNPrCCjv9x5b8r4LeD6FnAV8AI4Ftgst80q0X3EM0xu2YkHgI+dHVvAo8Cp2Vs+DCm3UW/Cw1NajTGg2Wnt0sfP9OAOcCBrq5T/MfqmQmsAWbLCqUgjHHrHuxixjJwB/CChNgAzAXOlbEwYS4Abgd+1jnwFDCvqs6rEsRO2+tVniPdvRp4UnptM/gYcIOs14369nKpWzaqEORkZw4vA2ZpRQy7uO9GiZr1ug04R++majP6WxCb6edUvhV4oNBe66ZsWAxcpfJCYFDOQHIFOVvnzffATQn/3wusVPminIHkCjJd9P4MHnNFz8wZSI4gjfIADC9n8HlNdLyczOTBpGKo28xfZvBZ7TyAvftDkFZXbsvgY/hTdG0qg1RBbDXOcFbpAzlwsTgAeMed0MZzWF8JMktWaonzmY4Azk/gdR4w0Y3jEeAH4JZYRmUR4rZwDHCn2i0OWCoX5EJgUoIgx4kulnodC4zWyf+eiy7rInZFpog+D+ynVQj2f5zzSnsCSxZM0HfG42L5aY+r7oSYgcUKEg6v4YX6NaLjI3gdJvq7otGAMBkrYgYWK8gy0Qly+wPeEo3Z8OHbt12dqfqJBZ49Qqwga7XRDYe7+pCkODKCV/jWJzjGyls2x/Kz3hTEsFz0YFe3SnRSRPQ3UdQfpiEgW6YYpseItVrIpThVscQI6XrQ92EyAqvq8GhxgzaL9YnOoqmqeyl2UCmCLFD8sY9zw1HybakiwHrYqKBrigzHZD1o8z/RF4KYO3IocK1OeFO1j4BPXZayHjYpDLb+D9KKmlq2ybVv7SGfLEHQrM1O/NejXWplz6IcRlUmH/oV/2tBQl1nZt4XJcIDcvO+uD24zWx8EeYLXalrhZTMYE08Auzi6JdELQjhQotolySiXfSETOAYpeqblU8dktBhX6Bd1x/rFMdsST01udkOUrfJl7pCDlxnYh64Qf/V3HtDBi9byd+A+e5GbSsvW5HwsqtLrP2XsGX8TVqBZmX7/Ilai/V3NHMdLgbvDju5BHrKygQET7lmK2I52rsrXIENCofnd9NucfnDwG4V9nlPuNWdp2x5cl6pgM3aiGUuS2tkJFmvH3M6Z/rr6UGyVDkXPBZLvKH81Eolq1eI5/7AdYpD7Hw5KjON1ChXya7gSu/Zc2HJg9dlIsuwXu768io77Q0X5QudSXZP8rGulM1smnd8n+KQSoUA+Bd2/PYlwZC0vQAAAABJRU5ErkJggg=="/>
+                    </svg>
+                    <h3 class="method-item-title">Умение воспринимать устную английскую речь</h4>
+                    <p class="method-item-text">"F.R.I.E.N.D.S." тебе не помогут. Ты будешь регулярно слушать и разбирать аудиозаписи в соответствии с изучаемой лексикой.</p>
+                </div>
+            </div>
+        </div>
+        <div class="program-container-wrapper">
+            <div class="program-container">
+                <h3 class="program-title">Наша программа</h3>
+                <ul class="program-subtitle-list">
+                    <li class="program-subtitle">1 семестр</li>
+                    <ul class="program-item-list">
+                        <li class="program-item">Grammar</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Nouns and Articles</li>
+                            <li class="program-item-text">Adjectives and Adverb</li>
+                        </ul>
+                        <li class="program-item">Vocabulary</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Family and Relations</li>
+                            <li class="program-item-text">People and Society</li>
+                        </ul>
+                    </ul>
+                    <li class="program-subtitle">2 семестр</li>
+                    <ul class="program-item-list">
+                        <li class="program-item">Grammar</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Pronouns</li>
+                            <li class="program-item-text">Active Voice</li>
+                            <li class="program-item-text">Passive Voice</li>
+                        </ul>
+                        <li class="program-item">Vocabulary</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Home</li>
+                            <li class="program-item-text">School</li>
+                            <li class="program-item-text">Work</li>
+                        </ul>
+                    </ul>
+                    <li class="program-subtitle">3 семестр</li>
+                    <ul class="program-item-list">
+                        <li class="program-item">Grammar</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Modal Verbs</li>
+                            <li class="program-item-text">Infinitive</li>
+                            <li class="program-item-text">Gerund</li>
+                            <li class="program-item-text">Participle: 1,2</li>
+                        </ul>
+                        <li class="program-item">Vocabulary</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Travel and Tourism</li>
+                            <li class="program-item-text">Culture and Free Time</li>
+                            <li class="program-item-text">Sport</li>
+                        </ul>
+                        <li class="program-item">Writing</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Informal Letter</li>
+                        </ul>
+                    </ul>
+                    <li class="program-subtitle">4 семестр</li>
+                    <ul class="program-item-list">
+                        <li class="program-item">Grammar</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Clauses: Conditionals and Wishes</li>
+                            <li class="program-item-text">Direct/Reported speech</li>
+                            <li class="program-item-text">Preposition</li>
+                            <li class="program-item-text">Conjunction</li>
+                            <li class="program-item-text">Numeral</li>
+                        </ul>
+                        <li class="program-item">Vocabulary</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Healthy Living</li>
+                            <li class="program-item-text">Nature and Environment</li>
+                            <li class="program-item-text">Money</li>
+                        </ul>
+                        <li class="program-item">Writing</li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Formal Letter</li>
+                        </ul>
+                    </ul>
+                    <li class="program-subtitle">5 семестр</li>
+                    <ul class="program-item-list">
+                        <li class="program-item"></li>
+                        <ul class="program-item-texts">
+                            <li class="program-item-text">Revision Tests</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <img class="reasons-img" src="img/program-pic.png" alt="studying">
+                <h2 class="reasons-title">Почему нас выбирают</h2>
+                <div class="reasons-container">
+                    <ul class="reason-item-list">
+                        <li class="reason-item">Обучение в малых командах</li>
+                        <li class="reason-item">Визуализированные конспекты</li>
+                        <li class="reason-item">Каждое занятие имеет цель и конкретный результат</li>
+                        <li class="reason-item">Реальные результаты преподавателя</li>
+                        <li class="reason-item">Программа курса соответствует МОН Украины</li>
+                        <li class="reason-item">Набор команд по уровням знаний</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h2 class="teacher-title">Преподаватель</h2>
+        <div class="teacher-container">
+            <section class="teach-photo">
+                <img class="teacher-photo" src="img/tutor.png" alt="tutor">
+            </section>
+            <section class="teach-info">
+                <h3 class="teacher-name">Елена Морева</h3>
+                <ul class="teacher-skills-list">
+                    <li class="teacher-skill">Опыт подготовки учеников к ВНО - 6 лет</li>
+                    <li class="teacher-skill">Собственный результат сдачи ВНО - 197 баллов 2 года подряд</li>
+                    <li class="teacher-skill">Сдала на отлично международный аналог ВНО - Кембриджский PET (Preliminary English Test)</li>
+                </ul>
+                <p class="teacher-info">Высшее образование получила в Институте международных отношений НАУ по специальности переводчик - аналитик. <br><br>В свободное время проходит курсы от лучших университетов мира по эффективному преподаванию и методикам написания сочинений. <br><br>В числе пройденных: English Grammar and Essay Writing (Berkeley), English Grammar&Style (The University of Queesland), How to Write an Essay (Berkeley), Academic and Business Writing (Berkeley), The Art of Teaching (GEMS education), Powerful Tools for Teaching and Learning (University of Houston).</p>
+                <p><a href="" class="teacher-link">Cambridge English Entry Level Certificate</a></p>
+            </section>
+        </div>
+        <div class="guarantees-container">
+            <h2 class="guarantees-title">Мы гарантируем</h2>
+            <div class="guarantees-list-wrapper">
+                <ul class="guarantees-list">
+                    <li class="guarantees-list__item">Ты сдашь ВНО минимум на 25 баллов лучше, чем на первом пробном тестировании. Иначе мы вернем деньги.</li>
+                    <li class="guarantees-list__item">Ты научишься писать сочинения минимум на 10 баллов из 14. В то время, как 20% учеников получили за сочинение 0.</li>
+                    <li class="guarantees-list__item">Ты будешь заниматься в своем районе. Мы выберем место проведения занятий после формирования команд.</li>
+                    <li class="guarantees-list__item">Команды будут сформированы исходя из начального уровня учеников. Мы учитываем особенности каждого ученика.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="review-container">
+            <h2 class="review-title">Отзывы наших выпускников</h2>
+            <div class="review-card">
+                <section class="review-photo">
+                    <img src="img/graduate6.png" alt="graduate" class="review-card__photo">
+                    <div class="review-card__icon"></div>
+                </section>
+                <section class="review-info">
+                    <h3 class="review-card__name">Тоня Кучеровская</h3>
+                    <p class="review-card__info">Выпуск 2015-го года, Національний університет біоресурсів і природокористування України</p>
+                    <p class="review-card__text">За короткий час занять з Оленою я опанувала граматику і поповнила свій зовсім пустий словниковій запас. З першого ж заняття я зрозуміла, що знаходжуся у своїй тарільці</p>
+                </section>
+            </div>
+            <div class="graduates">
+                <button class="review-list__button left"></button>
+                <ul class="graduates-list">
+                    <li class="graduates-list__item"><a href="#"><img src="img/graduate1.png" alt=""></a></li>
+                    <li class="graduates-list__item"><a href="#"><img src="img/graduate2.png" alt=""></a></li>
+                    <li class="graduates-list__item"><a href="#"><img src="img/graduate3.png" alt=""></a></li>
+                </ul>
+                <button class="review-list__button right"></button>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-card">
+                <h3 class="form-title">Регистрация на бесплатную телефонную консультацию по нюансам ВНО по английскому языку</h3>
+                <p class="form-text">Оставь заявку на участие в бесплатном занятии. С вами свяжется консультант и ответит на вопросы.</p>
+                <form action="#" method="POST" class="form">
+                    <input class="data-info" type="name" name="name" placeholder="Имя*" required>
+                    <input class="data-info" type="number" name="phone name" placeholder="Телефон*" required>
+                    <button class="form-button">Хочу на бесплатное занятие</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contacts-container">
+            <section class="telephone">
+                <svg class="icon-tel" width="20" height="20" viewBox="0 0 20 20">
+                    <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABmElEQVQ4jZ3UTYiOURjG8d+8xmexs1ATO0rRsFAUaSQiSpQiJJspko+UlSZFKRSxsbCx8x1WilDKQj5mgY0SwgLbKWJ06qKnt+edPO+1ep5zn/PvPtd9n7tndPckFZ3DMkzBPtzRUK1sX4BvWIgdOI4zTWECXIpnOI8leI6L+JFYY2C51iEcaYsNY1c3wC84WRO7jLndAEcwryZ2DRPQ3xT4K0Vp11HMwNemwA9YUVkrfXQdO7EWH5sAe3EJJypri7E6vdhYrXg1FRtz+GUKtaFbYNHZSiN/x2CuPadb4DFMw/7838VBvEFfzbnxmF0H7K18lwI8wg28w2lMT9H6Y4WAHuNzWu4tbqZvjRta9I/5PhW+mox/416e4JXEh+Nv2bMdnzAz/u8t/+3TpugWVsaCn1lbE59HMkSW19x2G07VAYtuYxXmx8eiHgwk6zpNxqtWh+C6zMbXOJy10TFgRQ9xvxOw6ECyLC1URtqWMfbuySwd7HTldg1hUzx9mmxeVB7AhbywJ/8L/KutWI9ZmBhfywDZjAfwB6R/W4wKPlzlAAAAAElFTkSuQmCC"/>
+                </svg>
+                <p class="telephone-number"><a class="telephone-number__link" href="#">+38 (000) 000 00 00</a></p>
+            </section>
+            <a href="#"><img class="instagram-link" src="img/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="footer">
+            <p class="footer__text">@ Все права защищены, 2019</p>
+        </div>
+    </footer>
+</body>
+</html>
